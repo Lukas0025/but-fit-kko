@@ -29,6 +29,3 @@ test: huff_codec
     done
 	rm -rf compresed.out
 	rm -rf decompress.raw
-
-ratio: huff_codec
-	bash ratio.sh
